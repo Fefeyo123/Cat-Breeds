@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.25em 0.5em;
+    border: 3px solid #000000;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    background: #ffffff;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+main {
+    flex: 1;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+
+select {
+    padding: 0.5em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    border: 3px solid #000000;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+}
+
+.card {
+    padding: 1em;
+    max-width: 65%;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+table {
+    margin-top: 1em;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #333;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+th, td {
+    border: 3px solid #333;
+    padding: 0.2em;
+}
+
+.breedImage {
+    max-width: 100%;
+    margin-bottom: 1em;
+    border: 3px solid #333;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+}
+
+.hidden {
+    visibility: hidden;
+}
